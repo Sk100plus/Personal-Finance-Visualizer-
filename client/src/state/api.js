@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 // Base URL of your backend server
-const BASE_URL = "http://localhost:3001/";
+const BASE_URL = "https://personal-finance-visualizer-dv9t.onrender.com/";
 
 export const api = createApi({
   reducerPath: "adminApi",
